@@ -12,21 +12,21 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-kr"
-title                    : "Blog"
+title                    : "블로그"
 title_separator          : "|"
-subtitle                 : "subtitle"
-name                     : "mhsong"
-description              : "Blog Test"
+subtitle                 : ""
+name                     : "맹군"
+description              : "Blog"
 url                      : "https://mhsong55.github.io"
 baseurl                  : ""
 repository               : "mhsong55/mhsong55.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "masthead_title" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # false (default)
 words_per_minute         : 200
 comments:
@@ -70,7 +70,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "mhsong55"
 facebook:
   username               :
   app_id                 :
@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "mhsong"
+  name             : "맹군"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "클라우드 엔지니어"
   location         : "Republic of Korea"
   email            : "mhsong55@kakao.com"
   links:
