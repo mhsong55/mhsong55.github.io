@@ -4,8 +4,8 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Category"
-    url: /category/
+  - title: "Categories"
+    url: /categories/
   - title: "Tags"
     url: /tags/
   # - title: "Sample Collections"
