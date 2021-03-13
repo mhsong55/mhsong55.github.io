@@ -9,6 +9,10 @@ tags:
   - Azure
 ---
 
+<br>
+![application-gateway-logo](/assets/images/2021-02-26-Application-Gateway/application-gateway-title-image.png){: .align-center}
+<br>
+
 # Application Gateway
 
 - [https://docs.microsoft.com/ko-kr/azure/application-gateway/application-gateway-faq](https://docs.microsoft.com/ko-kr/azure/application-gateway/application-gateway-faq)

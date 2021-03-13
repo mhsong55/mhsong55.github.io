@@ -17,6 +17,6 @@ tags:
 
 1. `Settings Sync` Extension 설치
 2. Github의 gist token 생성
-3. VS Code에서, `Ctrl + U` 누른 후 gist token 입력
+3. VS Code에서, `Shift + Alt + U` 누른 후 gist token 입력
 4. Upload 완료 후 출력된 gist id 저장
-5. 다른 컴퓨터의 VS Code에서 Settings Sync 설치한 후 `Ctrl + D`를 누르고 gist token과 gist id를 순차적으로 입력
+5. 다른 컴퓨터의 VS Code에서 Settings Sync 설치한 후 `Shift + Alt + D`를 누르고 gist token과 gist id를 순차적으로 입력
