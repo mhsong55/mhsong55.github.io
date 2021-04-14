@@ -34,17 +34,17 @@ Datadog에서 Azure의 Platform log를 확인하기 위해서는 Azure에서 Eve
 
 1. Azure Event hub와 Functions 배포
 
-```PowerShell
-(New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/DataDog/datadog-serverless-functions/master/azure/eventhub_log_forwarder/activity_logs_deploy.ps1", "activity_logs_deploy.ps1")
+  ```powershell
+  (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/DataDog/datadog-serverless-functions/master/azure/eventhub_log_forwarder/activity_logs_deploy.ps1", "activity_logs_deploy.ps1")
 
-./activity_logs_deploy.ps1 `
-    -ApiKey <api_key> `
-    -SubscriptionId <subscription_id> `
-    -EventHubNamespace <Unique-EventHub-Namespace> `
-    -FunctionAppName <Unique-FunctionAppName> `
-    -ResourceGroupLocation <Location> `
-    -ResourceGroupName <resourceGroupName>
-```
+  ./activity_logs_deploy.ps1 `
+      -ApiKey <api_key> `
+      -SubscriptionId <subscription_id> `
+      -EventHubNamespace <Unique-EventHub-Namespace> `
+      -FunctionAppName <Unique-FunctionAppName> `
+      -ResourceGroupLocation <Location> `
+      -ResourceGroupName <resourceGroupName>
+  ```
 
 ![activityLog-CloudShell](/assets/images/2021-04-08-Azure에서-datadog으로-log-streaming/activityLog-cloudShell.png){: .align-center}
 
