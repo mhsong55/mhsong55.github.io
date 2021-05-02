@@ -19,28 +19,28 @@ tags:
 
 # Syntax
 
-```Docker
+```
 # syntax=[remote image reference]
 ```
 
 사용 예:
-```Docker
+```
 # syntax=docker/dockerfile:1
 # syntax=docker.io/docker/dockerfile:1
 # syntax=example.com/user/repo:tag@sha256:abcdef...
 ```
 
-Syntax directive는 BuildKit 이라는 builder backend를 사용하는 경우에만 쓸 수 있고 Dockerfile을 build하는데 사용되는 Dockerfile syntax의 위치를 정의한다.
+Syntax directive는 [BuildKit](https://github.com/moby/buildkit) 이라는 builder backend를 사용하는 경우에만 쓸 수 있고 Dockerfile을 build하는데 사용되는 Dockerfile syntax의 위치를 정의한다.
 
 Docker에서 Dockerfile을 build하는 default syntax말고 custom dockerfile implementations로 build하기 위해서 사용한다.
 
 # Escape
-```Docker
+```
 # escape=\ (backslash)
 ```
 
 or
-```Docker
+```
 # escape=` (backtick)
 ```
 
