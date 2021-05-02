@@ -8,7 +8,7 @@ tags:
   - Dockerfile
 ---
 - Dockerfile 내 구문들이 처리되는 방법을 지시하는 구문을 의미한다.
-- "`# directive = value`" 형식의 특수한 주석 형태로 기재한다.
+- `# directive = value` 형식의 특수한 주석 형태로 기재한다.
 - Build 단계로 표시되지 않고, build에 layer를 추가하지도 않는다.
 - Parser directive가 한번 처리되고 나면 docker는 추가적인 parser directive를 찾지 않는다. Parser directive 이 후 주석, 빈 줄, builder 명령이 처리되고 나면 Parser directive가 나타나더라도 단순한 주석으로 처리된다. 따라서 Parser directive는 Dockerfile 맨 위에 위치해야 한다.
 - Case-insensitive 성질을 갖지만 convention은 소문자 기재이다.
